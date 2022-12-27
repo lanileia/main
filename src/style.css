@@ -1,0 +1,14 @@
+h1 {
+  color: blue;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+.weather {
+  width: 300px;
+  float: right;
+}
+.card-text {
+  text-align: center;
+}

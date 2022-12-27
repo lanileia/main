@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+<body>
+    <div class="container">
+    <h1>
+      ☀️ Weekly Weather ☀️
+    </h1>
+  </br>
+    <h2 id="temperature">
+      Current Temperature / Conditions
+    </br id="city">
+    Frisco, Texas 62ºF / Light Rain 🌧
+    </h2>
+  <h4 id="date">
+    Tuesday 12:21
+  </h4>
+  </br> 
+  <div class="five-day">
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 10rem;">
+              <h3> Monday </h3>
+ <img src="images/rainone.webp" alt="Monday" class="Monday" /> 
+ <div class="card-body">            
+ <p class="card-text">
+          70ºF/
+              </br>
+              47ºF
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 10rem;">
+              <h3> Tuesday </h3>
+              <img src="images/windtwo.jpeg" alt="Tuesday" class="Tuesday" /> 
+            <div class="card-body">
+              <p class="card-text">
+                  74ºF/
+                </br>
+                48ºF
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 10rem;">
+            <h3> Wednesday </h3>
+              <img src="images/sunthree.jpeg" alt="Wednesday" class="Wednesday" /> 
+        <div class="card-body">
+              <p class="card-text">
+                  74ºF/
+                </br>
+                50ºF
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 10rem;">
+                <h3> Thursday </h3>
+   <img src="images/partcloudfour.jpeg" alt="Thursday" class="Thursday" /> 
+              <div class="card-body">
+                <p class="card-text">
+            61ºF/
+                </br>
+                46ºF
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+              <div class="card" style="width: 10rem;">
+                  <h3> Friday </h3>
+     <img src="images/rainone.webp" alt="Friday" class="Friday" /> 
+                <div class="card-body">
+                  <p class="card-text">
+              67ºF/
+                  </br>
+                  45ºF
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+      <img src="images/weather.jpg" alt="weather" style="width:200%" />
+      </div>
+    </div>
+  </div>
+    <form id="search-city">
+        <input type="text" placeholder="insert city" id="city-log"/>
+        <button type="button" class="btn btn-primary">Search</button>
+      </form>
+    <script src="src/index.js"></script>
+    </div>
+  </body>
+</html>
